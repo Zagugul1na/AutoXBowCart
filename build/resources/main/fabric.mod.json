@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "autoxbowcart",
+  "version": "1.2.0",
+  "name": "AutoXBowCart",
+  "description": "Does boom boom now updated to 1 21 11 broski lewandowki",
+  "authors": [
+    "Zagugul1na"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/autoxbowcart/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autoxbowcart.AutoXBowCart"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
